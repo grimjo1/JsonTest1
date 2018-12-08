@@ -57,7 +57,7 @@ public class JsonRedactor extends JFrame {
                 jo.put("colour", "non");
                 jo.put("weight", 900);
                 jsonPole.setText(jo.toJSONString());
-                JSONArray ja = new JSONArray;
+                JSONArray ja = new JSONArray();
                 jo = new JSONObject();
                 jo.put("fruit", "Melon");
                 jo.put("size", "Large");
